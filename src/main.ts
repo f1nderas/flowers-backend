@@ -12,7 +12,7 @@ async function bootstrap() {
     console.log("Cookie parser added");
 
     app.enableCors({
-      origin: [process.env.CLIENT_URL, "http://31.31.196.193:3000"],
+      origin: [process.env.CLIENT_URL, "http://194.58.126.231:3000"],
       credentials: true,
       exposedHeaders: "set-cookie",
     });
