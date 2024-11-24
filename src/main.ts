@@ -21,7 +21,7 @@ async function bootstrap() {
     await initializeData();
     console.log("Data initialization completed");
 
-    await app.listen(5050);
+    await app.listen(4200);
     console.log("Server is running on port 5050");
   } catch (error) {
     console.error("Error during bootstrap:", error);
